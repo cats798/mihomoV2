@@ -1,0 +1,20 @@
+payload:
+  # ---- Google AI 核心服务 (Gemini, AI Studio, Bard) ----
+  - DOMAIN-SUFFIX,gemini.google.com,AI          # Gemini 网页版主域名[reference:3]
+  - DOMAIN-SUFFIX,aistudio.google.com,AI        # AI Studio 开发者平台[reference:5]
+  - DOMAIN,ai.google.dev,AI                     # AI 开发者文档与工具[reference:7]
+  - DOMAIN-SUFFIX,bard.google.com,AI            # Bard (Gemini 前身)[reference:10]
+  - DOMAIN-SUFFIX,makersuite.google.com,AI      # MakerSuite (AI Studio 前身)[reference:11]
+  - DOMAIN-SUFFIX,deepmind.google,AI            # DeepMind 官网
+  - DOMAIN-SUFFIX,deepmind.com,AI               # DeepMind 官网
+  - DOMAIN-SUFFIX,notebooklm.google,AI          # NotebookLM 
+  - DOMAIN-SUFFIX,notebooklm.google.com,AI      # NotebookLM 
+
+  # ---- Google AI API 与基础设施 ----
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com,AI  # Generative Language API[reference:17]
+  - DOMAIN-SUFFIX,apis.google.com,AI            # Google APIs 集合
+  - DOMAIN,alkalicore-pa.clients6.google.com,AI # AI Studio 底层服务[reference:20]
+  - DOMAIN,waa-pa.clients6.google.com,AI        # AI Studio 底层服务
+  - DOMAIN-SUFFIX,geller-pa.googleapis.com,AI   # Geller API 服务
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,AI # 后端服务
+  - DOMAIN-SUFFIX,generativeai.google,AI        # Generative AI 相关
